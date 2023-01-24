@@ -27,8 +27,8 @@ Loss: 0.2780188024044037, Accuracy: 0.8786407709121704
 33/33 - 1s - loss: 0.2194 - accuracy: 0.8990 - 753ms/epoch - 23ms/step  
 Loss: 0.2194284200668335, Accuracy: 0.8990291357040405
 + 3/6/12:  
-33/33 - 1s - **loss: 0.2335 - accuracy: 0.9029** - 567ms/epoch - 17ms/step  
-Loss: 0.23351119458675385, Accuracy: 0.9029126167297363
+33/33 - 0s - **loss: 0.2193 - accuracy: 0.9049** - 294ms/epoch - 9ms/step  
+Loss: 0.21933530271053314, Accuracy: 0.9048543572425842
 + 7/14/21:  
 33/33 - 1s - loss: 0.6689 - accuracy: 0.9000 - 895ms/epoch - 27ms/step  
 Loss: 0.6688849925994873, Accuracy: 0.8999999761581421
