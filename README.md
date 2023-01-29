@@ -1,13 +1,33 @@
 # Project-4-Group-8
 
-## Optimisation
-Firstly, we decreased the first hidden layer neurons from 7 to 3, the second hidden layer neurons from 14 to 6.
+## Dataset
+Bank Marketing Data Set  
+https://archive.ics.uci.edu/ml/datasets/Bank+Marketing  
+The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution,The goal is to predict if the client will subscribe a term deposit.
 
-Secondly, we added the third hidden layer neurons.
+## Prepare
+1. Read data from csv to Python Pandas dataframe.
+2. Drop the null row.
+3. Create sqlite database and table 'marketing'.
+4. Save data to database.
 
-Thirdly, we used different activation function for the hidden layer, from ReLU to Tanh.
+## Data Model Implementation
+1. Read data from sqlite database to Python Pandas dataframe.
+2. Drop the null row again.
+3. Check the unique values in each cloumn.
+4. Splite data into features and target arrays.
+6. Splite data into training and testing dataset.
+7. Create standard scaler and fit it.
+8. Scare the data.
+9. Define the deep neural net model and compile it.
+10. Train the model.
+11. Evaluate the model using the test data.
 
-Finally, Tanh is better than ReLu, and three hidden layers better than two. the best accuracy was composed of Tanh and 3/6/12 layer
+## Data Model Optimisation
+1. Decreased the first hidden layer neurons from 7 to 3, the second hidden layer neurons from 14 to 6.
+2. Added the third hidden layer neurons.
+3. Used different activation function for the hidden layer, from ReLU to Tanh.
+
 
 ### Function **ReLU**
 + 7/14:  
@@ -32,3 +52,6 @@ Loss: 0.21933530271053314, Accuracy: 0.9048543572425842
 + 7/14/21:  
 33/33 - 1s - loss: 0.6689 - accuracy: 0.9000 - 895ms/epoch - 27ms/step  
 Loss: 0.6688849925994873, Accuracy: 0.8999999761581421
+
+## Conclusion
+Tanh is better than ReLu, and three hidden layers better than two. the best accuracy was composed of Tanh and 3/6/12 layer
