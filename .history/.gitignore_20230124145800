@@ -128,4 +128,3 @@ dmypy.json
 # Pyre type checker
 .pyre/
 Resources/bank-additional-full.csv
-Bank_Marketing_full.ipynb
