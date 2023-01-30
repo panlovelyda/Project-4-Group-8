@@ -130,7 +130,3 @@ dmypy.json
 Resources/bank-additional-full.csv
 Bank_Marketing_full.ipynb
 Shill_Bidding.h5
-.gitignore
-Shill Bidding Dataset.csv
-Shill_Bidding.ipynb
-dataPrepare.ipynb
