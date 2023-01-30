@@ -1,5 +1,5 @@
 ### Project-4-Group-8
-# Bank Marketing Predict
+# Deep Learing: Bank Marketing Predict
 
 ## Dataset
 Bank Marketing Data Set  
@@ -15,7 +15,7 @@ The data is related with direct marketing campaigns (phone calls) of a Portugues
 ## Data Model Implementation
 1. Read data from sqlite database to Python Pandas dataframe.
 2. Drop the null row again.
-3. Check the unique values in each cloumn.
+3. Check the unique values in each column.
 4. Splite data into features and target arrays.
 6. Splite data into training and testing dataset.
 7. Create standard scaler and fit it.
