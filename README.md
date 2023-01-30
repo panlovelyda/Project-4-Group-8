@@ -65,9 +65,9 @@ Tanh is better than ReLu, and three hidden layers better than two. the best accu
 ![](Image/result.png)
 ![](Image/chart.png)
 
-# Optimised data has better accuracy with more rows in dataset
-# Increased dataset from 4119 to 41188 rows
-# Used the same Tanh activation function and 3 layers neural network
-# Accurecay rate increased from 0.9049 to 0.9159
+Optimised data has better accuracy with more rows in dataset:
+Increased dataset from 4119 to 41188 rows / 
+Used the same Tanh activation function and 3 layers neural network / 
+Accurecay rate increased from 0.9049 to 0.9159
 
 Tableau Public: https://public.tableau.com/views/Project4Group8/AccuracyRateDetail?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
